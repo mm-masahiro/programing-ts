@@ -3,9 +3,9 @@ function add(a: number, b: number): number {
 }
 
 // 名前付き関数
-function greet(name: string) {
-	return 'hello ' + name
-}
+// function greet(name: string) {
+// 	return 'hello ' + name
+// }
 
 // 関数式
 let greet2 = function(name: string) {
