@@ -10,10 +10,10 @@ type Context = {
 	userId?: string
 }
 
-function log(message: string, context: Context = {}) {
-	let time = new Date().toISOString()
-	console.log(time, message, context.userId)
-}
+// function log(message: string, context: Context = {}) {
+// 	let time = new Date().toISOString()
+// 	console.log(time, message, context.userId)
+// }
 
 log('Page loaded')
 log('User signed in')
