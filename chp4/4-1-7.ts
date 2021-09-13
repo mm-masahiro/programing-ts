@@ -4,6 +4,7 @@ function greet(name: string) {
 
 type Greet = (name: string) => string
 
+// 呼び出しシグネチャ
 type Log = (message: string, userId?: string) => void
 
 const log: Log = (message, userId = 'Not Signed in') => {
