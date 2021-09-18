@@ -2,7 +2,7 @@
 // 	<T>(arr: T[], f: (predicate: T) => boolean): T[]
 // }
 
-function myFilter<T>(arr: Array<T>, predicate: (element: T) => boolean): Array<T> {
+function myFilter<T>(arr: T[], predicate: (element: T) => boolean): T[] {
   const result = [];
   for (const elm of arr) {
     if (predicate(elm)) {
