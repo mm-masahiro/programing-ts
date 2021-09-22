@@ -11,4 +11,21 @@ function voidFunc(num1: number, num2: number): void {
 	const sum = num1 + num2;
 };
 
+// generics
+interface Foo<S, T> {
+	foo: S,
+	bar: T,
+}
 
+const obj: Foo<number, string> = {
+	foo: 2,
+	bar: 'bar',
+}
+
+const obj3: Foo<object, string> = {
+	foo: {
+		foo1: 'foo1',
+		foo2: 'foo2',
+	},
+	bar: 'bar',
+}
