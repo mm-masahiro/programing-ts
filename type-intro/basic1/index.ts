@@ -5,4 +5,10 @@ function func(arg: string): number {
 }
 
 const func2 = (foo: string, ...bar: number[]) => bar;
-console.log(func2(1,2,4));
+console.log(func2('bar', 1,2,4));
+
+function voidFunc(num1: number, num2: number): void {
+	const sum = num1 + num2;
+};
+
+
