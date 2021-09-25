@@ -35,10 +35,3 @@ const foo: [string, number] = ['foo', 8];
 type NumAndStrings = [number, ...string[]];
 
 const a1: NumAndStrings = [3, 'hoge', 'foo'];
-
-type Args = [string, number, boolean];
-
-const func3 = (...args: Args) => args[0];
-
-const v = func3('foo', 3, true)
-console.log(v);
